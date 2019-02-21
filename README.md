@@ -17,10 +17,6 @@ Février 2019
 
 Le bonus de l'exercice
 
-## Screenshots
-
-
-
 ## Créateur
 
 Pablo Mombo
