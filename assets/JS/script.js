@@ -13,8 +13,8 @@ var today = new Date();
     	if (min<10) {
     		min ="0"+min;
 	    }
-
-	if ((h>=12 && h<=15) || (h>=19 && h<=23) || (days=["Dimanche","Mardi","Mercredi","Jeudi","Vendredi","Samedi"])) {
+	    
+	if ((h>=12 && h<=15) || (h>=19 && h<=23) || (days[w]==["Dimanche","Mardi","Mercredi","Jeudi","Vendredi","Samedi"])) {
 		document.getElementById("time").innerHTML = days[w] + " " + d + " " + months[c] + " " + y + "," + " " + h + "h" + min + " " + "-------->" + " " + "Nous sommes ouvert!";
 
 
